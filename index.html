@@ -14,28 +14,26 @@
         h1 {
             color: #333;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        a {
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007bff;
+            color: white;
             text-decoration: none;
-            color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
-        a:hover {
-            text-decoration: underline;
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to My Twine Scenarios</h1>
-    <ul>
-        <li><a href="S10">S10</a></li>
-        <li><a href="Tester">Tester</a></li></li>
-        <!-- Add more stories as needed -->
-    </ul>
+    <p>Select a scenario to play:</p>
+    <a class="button" href="S10">S10</a>
+    <a class="button" href="Tester.html">Tester</a>
+    <!-- Add more buttons for additional stories -->
 </body>
 </html>
